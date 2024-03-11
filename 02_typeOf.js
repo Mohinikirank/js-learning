@@ -1,4 +1,4 @@
-console.log("************** Step 1 **************");
+console.log(" ================== Step 1  ==================");
 
 console.log("====Before Initialization====");
 var bankName;
@@ -14,7 +14,7 @@ console.log("Type of Bank Name :", typeofbankName);
 
 
 
-console.log("************** Step 2 **************");
+console.log(" ================== Step 2  ==================");
 
 var marks = "90%" ;
 console.log("Value of Marks:", marks);
@@ -23,7 +23,7 @@ console.log("Type of Marks:", typeofmarks);
 
 
 
-console.log("************** Step 3 **************");
+console.log(" ================== Step 3  ==================");
 
 console.log("====Before Initialization====");
 
@@ -41,7 +41,7 @@ console.log("Type of isWorking:", typeofIsWorking);
 
 
 
-console.log("************** Step 4 **************");
+console.log(" ================== Step 4 ==================");
 
 console.log("====Before Initialization====");
 
