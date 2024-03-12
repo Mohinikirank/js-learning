@@ -36,7 +36,6 @@ swapValues("Virat","Anushka");
 
 console.log("*******************************");
 
-
 function swapNumbers(arg3,arg4){
 console.log("======== Before Swap==========");
 console.log("1000:", arg3,  " 2000:", arg4);
@@ -47,9 +46,6 @@ console.log("======== After Swap==========");
  console.log("1000:", arg3, " 2000:", arg4);
 }
 swapNumbers(1000,2000);
-
-
-
 
 console.log("=================step 4================="); 
 
