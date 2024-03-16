@@ -3,7 +3,7 @@ console.log("**************************step 1**************************");
 
     function greaterNumber(n1,n2){
     var max = (n1>n2) ? n1 : n2 ;
-    console.log(`Greater number among ${n1} and ${n2} is:${max}`);
+    console.log(`Greatest number among ${n1} and ${n2} is:${max}`);
     
 }
 greaterNumber(10,-10);
@@ -27,7 +27,7 @@ function isEvenOrOddNum(n1){
    function wordLength(word) {
     var length = word.length;
     var result = length%2==0 ? "EVEN": "ODD";
-    console.log(`${word} word length is: ${result}`);
+    console.log(`"${word}" word length is: ${result}`);
     return result;
    }
    wordLength("JavaScript");
