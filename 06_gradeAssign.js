@@ -14,7 +14,7 @@ if (marks>=90 && marks<=100) {
        console.log(`Marks is: ${marks} Your grade is C,Need improvement`);
             } else {
                 if (marks<53 && marks>0) {
-                console.log(`You are Failed`);    
+                console.log(`You are Failed: ${marks}`);    
                 } else {
             if ( marks==null || marks<=0 || marks>100 || isNaN(+marks)) {
                 console.log(`Please provide the valid marks: ${marks}`);
