@@ -5,10 +5,8 @@ function factorialOfNum(num) {
     }if( num==null || isNaN(+num)) {
         fact = "Invalid input"  
            } 
-            console.log(`Factorial of ${num} is: ${fact}`);
-           
+            console.log(`Factorial of ${num} is: ${fact}`);         
 }
-
 factorialOfNum(5);
 factorialOfNum(3);
 factorialOfNum(null);
