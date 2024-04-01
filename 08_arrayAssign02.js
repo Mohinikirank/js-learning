@@ -22,7 +22,6 @@ for (const no of arrayNumbers) {
     console.log(no);
 }
 }
-
 let sumEven=0;
 for (const number in arrayNumbers) {
     if (number%2==0) {
