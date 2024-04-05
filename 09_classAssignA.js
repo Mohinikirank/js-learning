@@ -18,7 +18,7 @@ this.fuel=fuel
 
 }
 detail(){
-    console.log(`vehicle Details =>Type:${this.type},  Company: ${this.company},  Model:${this.model},  Price: ${this.price},  Color:${this.color},  Type:${this.fuel}`);
+    console.log(`vehicle Details =>Type:${this.type},  Company: ${this.company},  Model:${this.model},  Price: ${this.price},  Color:${this.color},  Fuel:${this.fuel}`);
 }
 }
 const Helicopter = new Vehicle ("Helicopter","Robinson","Robinson R44","5Cr","blue","AVGAS");
@@ -37,7 +37,7 @@ const bike = new Vehicle("Bike","Royal Enfield","Royal Enfield Hunter 350","1.5L
 bike.detail();
 
 console.log(`==================== Traversing array object ==================`);
-const array = [car,bike,bus,Helicopter,Train];
+const array = [Helicopter,Train,bus,car,bike];
 for (const element of array) {
    element.detail(); 
 }
