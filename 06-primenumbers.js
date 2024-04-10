@@ -13,9 +13,3 @@ console.log(`Is 7 Prime Number : ${result}`);
 const result1 = isPrime(9);
 console.log(`Is 7 Prime Number : ${result1}`);
 
-
-console.log(`========================step 2 ========================`);
-
-function spaceCount(space) {
-  let space = 
-}

@@ -24,11 +24,11 @@ let addition = (n1,n2,n3,n4,n5) => {
     return result;
   }
   let returnValue2 = addition(100,100,200,349,756);
-  console.log(`Values to be passed:100,100,200,349,756`);
+  console.log(`values to be passed:100,100,200,349,756`);
   console.log("Addition is: ", returnValue2);
 
   let returnValue = addition("i am",  "learning" ,  "ES6" , 'features' , "in depth");
-  console.log(`values to be passed:"i am", "learning", "ES6", 'features', "in depth"`);
+  console.log(`values to be passed:"i am", "learning", "ES6", 'features', "in depth"`);;
   console.log("Addition is: ", returnValue);
 
 
