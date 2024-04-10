@@ -23,7 +23,7 @@ console.log(`==================Step 1================`);
 console.log(`===== WAP to get employee working in 'TCS' ======`);
 arrayEmployees.forEach(element => {
     if (element.emp_company=="TCS") {
-       console.log(`emp_name:${element.emp_name},   emp_company:${element.emp_company}`);
+       console.log(`emp_name: ${element.emp_name},   emp_company: ${element.emp_company}`);
     }
 });
 
@@ -31,7 +31,7 @@ console.log(`==================Step 2================`);
 console.log(`===== WAP to get employee from Fianance depart ======`);
 arrayEmployees.forEach(element => {
     if (element.emp_dept=="Fianance") {
-       console.log(`emp_name:${element.emp_name},   emp_dept:${element.emp_dept}`);
+       console.log(`emp_name: ${element.emp_name},   emp_dept: ${element.emp_dept}`);
     }
 });
 
@@ -47,7 +47,7 @@ console.log(`==================Step 4================`);
 console.log(`===== WAP to get employee whose salary is greater than 75000 ======`);
 arrayEmployees.forEach(element => {
     if (element.emp_salary>75000) {
-       console.log(`emp_name:${element.emp_name},  emp_company:${element.emp_company},  emp_salary:${element.emp_salary}`);
+       console.log(`emp_name: ${element.emp_name},  emp_company: ${element.emp_company},  emp_salary: ${element.emp_salary}`);
     }
 });
 
