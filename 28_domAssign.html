@@ -1,0 +1,46 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise Time!</title>
+</head>
+<body>
+    <main>
+        <div id="overview">
+            <h1> HTML and JavaScript are crucial technologies </h1>
+            <p>The web would not work without them....</p>
+        </div>
+        <div id="advantages">
+            <ul>
+                <li>Flexible</li>
+                <li class="available">Available</li>
+                <li>Magical</li>
+            </ul>
+      
+        </div>
+    </main>
+    <script>
+        console.log(`=================================Step 1========================================`);
+        console.log(`~~~~~~~~~~~~~~~~~ mainheading should store the <h1> element ~~~~~~~~~~~~~~~~~`);
+        const mainHeading = document.querySelector('h1');
+        console.log(mainHeading.innerHTML);
+
+
+        console.log(`=================================Step 2========================================`);
+        console.log(`~~~~~~~~~~~~~~~~~ secondAdvantage should store the second <li> element~~~~~~~~~~~~~~~~~`);
+        const secondAdvantage = document.querySelector('.available');
+        console.log(secondAdvantage.innerHTML);
+
+
+        console.log(`=================================Step 3========================================`);
+        console.log(`~~~~~~~~~~~~~~~~~ advDiv should store the <div> with the id advantages~~~~~~~~~~~~~~~~~`);
+        const advDiv = document.querySelectorAll('#advantages');
+        for (const element of advDiv) {
+        console.log(element.innerHTML);
+}
+
+
+    </script>
+</body>
+</html>
