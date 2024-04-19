@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Discount Calculator</title>
+    <!-- CDN Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- Google Font Family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      label{
+          color: rgb(101, 232, 149);
+           font-family: "Poppins", sans-serif;
+           font-weight: 600;
+           margin-top: 40px;
+      }
+      #bill{
+          padding-bottom: 20px;
+      }
+       h2{
+          color:rgb(77, 233, 227);
+          font-family:"Roboto", sans-serif;
+          font-weight:800;
+           text-align: center;
+           font-size: 30px;
+
+       }
+      
+      input[type="number"]{
+
+           border-radius: 8px;
+           width: 100%;
+           margin-bottom: 10px;
+           padding:5px 5px;
+      }
+      input[type="number"]{
+          border-radius: 8px;
+          width: 100% ;
+          margin-bottom: 20px;
+          padding:5px 5px;
+      }
+      button[type="calculate"]:hover{
+  width: 100%;
+  color: aliceblue;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: rgb(115, 251, 74);
+  border-radius: 8px;
+  margin-bottom: 10px;
+  padding: 5px;
+  font-family:"Roboto",sans-serif;
+
+}
+.calculate{
+  background: white;
+  width: 560px;
+  height: 400px;
+  padding: 25px;
+  margin: 50px auto 0;
+  box-shadow: 0 0 7px 5px;
+}
+      
+    </style>
+  </head>
+  <body>
+    <div class="calculate">
+      <h2 >Discount Calculator</h2>
+      <form action="">
+        <table>
+          <tbody>
+            <tr><td id="bill">
+                <label for="" >Enter the bill amount and Discount in Percentage</label>
+              </td></tr>
+            <tr><td><label for="">Bill Amount</label></td></tr>
+             <tr><td><input type="number" class="sp"/></td></tr>
+            <tr><td><label for="">Discount Percentage</label></td></tr>
+            <tr><td><input type="number" class="cp" /></td></tr>
+            <tr><td><button type="calculate" id="add">calculate</button></td></tr>
+             <tr><td class="percentageResult"><label for="">Total Discount Amount</label></td></tr>
+          </tbody>
+        </table>
+      </form>
+    </div>
+<script>
+const button = document.querySelector("button");
+      button.addEventListener("click", () => {
+    const sp = document.querySelector('.sp').value;
+   const cp = document.querySelector('.cp').value;
+   const percentageResult= document.querySelector('.percentageResult')
+const discount =(sp/100)*cp;
+percentageResult.innerHTML= `Total Discount Amount:${discount}`;
+});
+
+</script>
+  </body>
+</html>
